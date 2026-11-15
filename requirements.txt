@@ -10,3 +10,5 @@ openpyxl
 requests
 beautifulsoup4
 python-dotenv
+tavily-python==0.8.5
+scikit-learn==1.9.1
