@@ -1,0 +1,24 @@
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large training dataset - not required for runtime
+datasets/raw/WELFake_Dataset.csv
+
+# Backup models
+models/*backup*.pkl
+
+# Experimental models and training outputs
+models/experimental/bias_detection_model_candidate.pkl
+models/experimental/opinion_detection_model_candidate.pkl
+models/experimental/bias_detection_model_comparison.json
+models/experimental/opinion_detection_model_comparison.json
+models/experimental/nested_cv/*report.json
+models/experimental/nested_cv/*predictions.csv

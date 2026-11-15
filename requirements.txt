@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+streamlit
+plotly
+joblib
+openpyxl
+requests
+beautifulsoup4
